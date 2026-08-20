@@ -1,0 +1,12 @@
+{
+  "name": "vast-server",
+  "version": "1.0.0",
+  "description": "Express server that serves the VAST XML file",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
