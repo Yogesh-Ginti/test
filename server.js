@@ -15,8 +15,6 @@ app.get("/", (req, res) => {
 });
 
 app.get("/vast", (req, res) => {
-  res.setHeader("Access-Control-Allow-Origin", "https://imasdk.googleapis.com");
-  res.setHeader("Access-Control-Allow-Credentials", "true");
   res.sendFile(vastFile);
 });
 
