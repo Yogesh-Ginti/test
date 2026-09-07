@@ -5,7 +5,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 const vastFile = path.join(__dirname, "vast.xml");
 
-
+app.use(cors())
 app.get("/", (req, res) => {
   res.send("VAST server is running!");
 });
